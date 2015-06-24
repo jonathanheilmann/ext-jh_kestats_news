@@ -1,0 +1,10 @@
+plugin.tx_kestats_pi1 {
+	# setup statistics for news
+	registerExtension.news = News system
+	registerExtension.news.table = tx_news_domain_model_news
+	registerExtension.news.titleField = title
+	registerExtension.news.uidField = uid
+	registerExtension.news.pidField = pid
+	registerExtension.news.uidParameter = news
+	registerExtension.news.uidParameterWrap = tx_news_pi1
+}
